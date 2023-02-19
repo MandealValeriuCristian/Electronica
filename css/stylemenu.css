@@ -58,9 +58,9 @@ body{
 } */
 /* linia-dintre-titlu-si-meniu */
 .header-top {
-	border-bottom: solid 1px rgb(255, 255, 255);
+	border-bottom: solid 0px rgb(255, 255, 255);
     padding: .8em 0;
-    background: rgba(0, 0, 0, 0.7);
+    /* background: rgba(0, 0, 0, 0.7); */
 }
 /* //linie */
 
@@ -142,8 +142,15 @@ body{
 .navbar-default .navbar-nav li  a:hover:before,.navbar-default .navbar-nav li a.active:before{
 	width: 100%;
 }
+.titlu {
+    position: 50%;
+    width: 600px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 .titlu h1 a {
-    color: #4286f4;
+    color: #ffffff;
     font-weight: 700;
     font-family: sans-serif;
     font-size: 1.1em;
@@ -151,4 +158,12 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-shadow: 0 0 10px #4286f4,
+                 0 0 20px #4286f4,
+                 0 0 40px #4286f4,
+                 0 0 80px #4286f4,
+                 0 0 120px #4286f4,
+                 0 0 200px #4286f4,
+                 0 0 300px #4286f4,
+                 0 0 400px #4286f4;
 }

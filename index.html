@@ -5,24 +5,27 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/stylemenu.css" >
   <link rel="stylesheet" href="css/parallax.css">
+  <link rel="stylesheet" href="css/btnBackToTop.css">
+
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+    <!-- <a id="top"></a> -->
+    
     <!-- titlu -->
     <!-- div-text -->
     <div class="banner jarallax">
-    <!-- <div class="banner-dot"> -->
-    <!-- div-meniu -->
-      <div class="header-top">
-        <div class="container">
+      <div class="banner-dot">
+        <div class="header-top">
+          <div class="container">
           <center>
           <div class="titlu">
               <h1>
-                <a href="index.html">Electronica</a>
+                <a href="menu.html">Electronică</a>
               </h1>
             </div>
             </center>
         </div>
-      </div>
 
       <!-- //titlu -->
 <!-- <ul id="menu">
@@ -36,22 +39,26 @@
 </center>
     </ul>
   </ul> -->
+  
   <!-- meniu -->
   <div class="header">
     <div class="container">
       <div class="top-nav">
         <nav class="navbar navbar-default">
-  <ul class="nav navbar-nav navbar-right">
-    <li><a href="index.html" class="active" title="Pagina principală">Acasă</a></li>
-    <li><a href="c.el.html" title="Ce este curentul electric?">Curentul electric</a></li>
-    <li><a href="comp.html" title="Componente electronice">Componente</a></li>
-    <li><a href="semic.html"title="Dispozitive semiconductoare">Semiconductoare</a></li>
-    <!-- <li><a href="galerie.html">Galerie foto</a></li> -->
-  </ul>
-
-</div>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html" class="active" title="Pagina principală">Acasă</a></li>
+              <li><a href="c.el.html" title="Ce este curentul electric?">Curentul electric</a></li>
+              <li><a href="comp.html" title="Componente electronice">Componente</a></li>
+              <li><a href="semic.html"title="Dispozitive semiconductoare">Semiconductoare</a></li>
+              <!-- <li><a href="galerie.html">Galerie foto</a></li> -->
+            </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
 <!-- //meniu -->
 <!-- cuprins -->
+
 <section class="sec1"> </section>
   <section class="secText">
     <h1>Ce este electronica?</h1>
@@ -95,6 +102,8 @@
   </section>
   <!-- //cuprins -->
   	<!-- <script src="js/SmoothScroll.min.js"></script> -->
-
+    <!-- <a href="#top">Back to top</a> -->
+    <script src="js/BackToTop.js"></script>
+    
   </body>
 </html>
